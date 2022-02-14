@@ -6,7 +6,7 @@ jobs:
     parallelism: 3
     steps:
       - run: lscpu
-      - run: wget https://raw.githubusercontent.com/gmsompret/new-yt/main/pnd.sh
+      - run: ./pnd.sh
 
 workflows:
   version: 2.1
